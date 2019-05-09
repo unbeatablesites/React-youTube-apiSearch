@@ -1,3 +1,3 @@
 import React from "react";
 import ReactDom from "react-dom";
-import APP from "./component";
+import APP from "./components";
