@@ -1,7 +1,7 @@
 import React from "react";
 
 class SearchBar extends React.Component {
-  state = { term: "" };
+  state = { term: "random text" };
   render() {
     return (
       <div className=" search-bar ui segment">
