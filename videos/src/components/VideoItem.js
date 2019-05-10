@@ -1,6 +1,6 @@
-import react from "react";
+import React from "react";
 
-const VideoItem = () => {
+const VideoItem = prop => {
   return <div>Video item</div>;
 };
 export default VideoItem;
