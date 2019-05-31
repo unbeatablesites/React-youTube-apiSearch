@@ -5,8 +5,8 @@ const VideoItem = ({ video }) => {
     <div className="item">
       <img className="ui image" src={video.snippet.thumbnails.medium.url} />
       <div className="contentr">
-     <div className="header"{video.snippet.title}></div> 
-      </div> 
+        <div className="header">{video.snippet.title}</div>
+      </div>
     </div>
   );
 };
